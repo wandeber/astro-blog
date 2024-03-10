@@ -1,25 +1,23 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 
-const pageTitle = "About Me";
+const pageTitle = "Sobre mí";
 
 const identity = {
   firstName: "Bernardo",
-  country: "Spain",
-  occupation: "Programmer",
-  hobbies: ["videogame development", "video editing"],
+  country: "España",
+  occupation: "Programador",
+  hobbies: ["desarrollo de videojuegos", "edición de vídeo"],
 };
 
-const skills = ["Web development", "Project management", "Node", "React", "Tailwind"];
+const skills = ["Desarrollo web", "Gestión de proyectos", "Node", "React", "Tailwind"];
 
-const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
 ---
 
-<style define:vars={{ skillColor, fontWeight, textCase }}>
+<style define:vars={{ fontWeight, textCase }}>
 	.skill {
-		color: var(--skillColor);
 		font-weight: var(--fontWeight);
 		text-transform: var(--textCase);
 	}
@@ -38,23 +36,10 @@ const textCase = "uppercase";
 		Además del desarrollo web y de software en general, estoy interesado en la producción audiovisual, el diseño gráfico y en todas las partes de la creación de videojuegos. En estos momentos, estoy profundizando en Unreal Engine y tecnologías de desarrollo web como Astro y Svelte, a la vez que las combino con plataformas de despliegue modernas como Vercel, Netlify y otras.
 	</p>
 
-	<p>Here are a few facts about me:</p>
-	<ul>
-		<li>My name is {identity.firstName}.</li>
-		<li>
-			I live in {identity.country} and I work as a {identity.occupation}.
-		</li>
-		{
-			identity.hobbies.length >= 2 && (
-				<li>
-					Two of my hobbies are: {identity.hobbies[0]} and{" "}
-					{identity.hobbies[1]}
-				</li>
-			)
-		}
-	</ul>
-	<p>My skills are:</p>
-	<ul>
-		{skills.map((skill) => <li class="skill">{skill}</li>)}
-	</ul>
+	<!--
+		<p>Skills:</p>
+		<ul>
+			{skills.map((skill) => <li class="skill">{skill}</li>)}
+		</ul>
+	-->
 </BaseLayout>

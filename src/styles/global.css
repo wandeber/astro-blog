@@ -20,6 +20,23 @@ h1 {
   font-size: 2.5rem;
 }
 
+
+p:not(:last-child), ul:not(:last-child) {
+  @apply mb-4;
+}
+
+
+ul {
+  list-style-type: none; /* Elimina el marcador por defecto */
+  padding-left: 0; /* Opcional: elimina el padding izquierdo si deseas alinear los elementos a la izquierda */
+}
+
+ul li::before {
+  content: "-"; /* Añade el guion como contenido antes de cada <li> */
+  margin-right: 8px; /* Añade un margen derecho para separar el guion del texto */
+  /* Puedes ajustar el color, tamaño, etc., del guion aquí si es necesario */
+}
+
 main.content a {
 	color: #0089e4;
 	text-decoration: none;
