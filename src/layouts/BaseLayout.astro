@@ -20,10 +20,10 @@ const {pageTitle} = Astro.props;
   <body>
     <Header />
 
-		<div transition:animate="fade">
+		<main transition:animate="fade" class="content">
     	<h1>{pageTitle}</h1>
 			<slot />
-		</div>
+		</main>
 
     <Footer />
 

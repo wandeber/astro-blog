@@ -4,17 +4,13 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 const pageTitle = "About Me";
 
 const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
+  firstName: "Bernardo",
+  country: "Spain",
+  occupation: "Programmer",
+  hobbies: ["videogame development", "video editing"],
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
-
-const happy = true;
-const finished = true;
-const goal = 3;
+const skills = ["Web development", "Project management", "Node", "React", "Tailwind"];
 
 const skillColor = "navy";
 const fontWeight = "bold";
@@ -30,16 +26,16 @@ const textCase = "uppercase";
 </style>
 
 <BaseLayout pageTitle={pageTitle}>
-	<h2>... and my new Astro site!</h2>
-
 	<p>
-		I am working through Astro's introductory tutorial. This is the second
-		page on my website, and it's the first one I built myself!
+		Cuando vi por primera vez un trozo de HTML y lo que pintaba en pantalla, me fue imposible saciar mi curiosidad. Después fueron JavaScript y C++. La sensación de resolver incluso los problemas más sencillos era indescriptible. Desde ese momento, he pasado por muchas tecnologías y diferentes lenguajes de programación.
 	</p>
 
 	<p>
-		This site will update as I complete more of the tutorial, so keep checking
-		back and see how my journey is going!
+		Una de las cosas que más me satisface es aprender, así que a eso me dediqué de forma autodidacta durante años mientras hacía realidad varios proyectos personales y de terceros. Finalmente, me matriculé en el Grado Superior de Desarrollo de Aplicaciones Web para validar y poner a prueba mis conocimientos. Las prácticas me ayudaron a acceder al mercado laboral y desde entonces, no he dejado de trabajar.
+	</p>
+
+	<p>
+		Además del desarrollo web y de software en general, estoy interesado en la producción audiovisual, el diseño gráfico y en todas las partes de la creación de videojuegos. En estos momentos, estoy profundizando en Unreal Engine y tecnologías de desarrollo web como Astro y Svelte, a la vez que las combino con plataformas de despliegue modernas como Vercel, Netlify y otras.
 	</p>
 
 	<p>Here are a few facts about me:</p>
@@ -61,14 +57,4 @@ const textCase = "uppercase";
 	<ul>
 		{skills.map((skill) => <li class="skill">{skill}</li>)}
 	</ul>
-
-	{happy && <p>I am happy to be learning Astro!</p>}
-	{finished && <p>I finished this tutorial!</p>}
-	{
-		goal === 3 ? (
-			<p>My goal is to finish in 3 days.</p>
-		) : (
-			<p>My goal is not 3 days.</p>
-		)
-	}
 </BaseLayout>

@@ -7,10 +7,10 @@ export default function Greeting({messages}) {
   const [greeting, setGreeting] = useState(messages[0]);
 
   return (
-    <div>
-      <h3>{greeting}! Thank you for visiting!</h3>
+    <div class="flex items-center gap-2 mb-4">
+      <h3><em>{greeting}</em></h3>
       <button onClick={() => setGreeting(randomMessage())}>
-        New Greeting
+        Otra frase
       </button>
     </div>
   );
