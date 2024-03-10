@@ -5,14 +5,5 @@
     "astro",
     "typescript",
     "typescriptreact"
-  ],
-  "stylelint.validate": ["html", "astro"],
-  "prettier.documentSelectors": [
-		"**/*.astro",
-		"**/*.json"
-	],
-	"prettier.formatOnSave": true,
-  "[astro]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  ]
 }
