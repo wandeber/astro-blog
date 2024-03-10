@@ -8,7 +8,7 @@ const pageTitle = "Últimos posts";
 const allPosts = await getCollection("posts");
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} description="Blog de Bernardo A. Siverio (Wandeber) sobre programación en general, desarrollo web, videojuegos, edición de vídeo, fotografía y cualquier otro tema de su interés.">
 	<Greeting client:load messages={[
 		"Sic Parvis Magna.",
 		"Done is better than perfect.",

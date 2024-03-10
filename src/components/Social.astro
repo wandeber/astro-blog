@@ -2,6 +2,10 @@
 const { platform, username } = Astro.props;
 ---
 
-<a href={`https://www.${platform}.com/${username}`} target="_blank" class="min-w-8">
+<a
+	href={`https://www.${platform}.com/${username}`}
+	aria-label={`Enlace a la cuenta de ${platform} de ${username}`}
+	rel="noreferrer" target="_blank" class="min-w-8"
+>
 	<slot />
 </a>

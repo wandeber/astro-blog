@@ -9,6 +9,6 @@ const allPosts = await getCollection('posts');
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} description="Lista de etiquetas para encontrar fácilmente publicaciones relacionadas con un tema concreto.">
 	<Tags tags={tags} />
 </BaseLayout>

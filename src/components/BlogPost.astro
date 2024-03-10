@@ -2,6 +2,6 @@
 const {url, title} = Astro.props;
 ---
 
-<li>
-	<a href={url}>{title}</a>
+<li class="block">
+	<a href={url} class="inline-block py-2 md:py-1">{title}</a>
 </li>

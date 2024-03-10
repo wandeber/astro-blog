@@ -5,7 +5,7 @@ import Tags from '@components/Tags.astro';
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
+<BaseLayout pageTitle={frontmatter.title} description={frontmatter.description}>
 	<p>{frontmatter.pubDate.toString().slice(0,10)}</p>
 	<!--<p transition:animate={fade({ duration: '2s' })}><em>{frontmatter.description}</em></p>-->
 	<p><em>{frontmatter.description}</em></p>
