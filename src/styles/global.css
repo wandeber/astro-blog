@@ -65,9 +65,10 @@ main.content button {
 }
 
 .nav-links a {
-  display: block;
+	display: block;
   text-decoration: none;
   font-size: 1.2rem;
+	padding: 0.3em 0;
 }
 
 .nav-links a:hover,
