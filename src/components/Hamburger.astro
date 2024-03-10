@@ -1,7 +1,22 @@
 ---
 ---
-<div class="hamburger">
+<div class="hamburger flex flex-col gap-2">
   <span class="line"></span>
   <span class="line"></span>
   <span class="line"></span>
 </div>
+
+<style>
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 32px;
+  height: 2px;
+  background-color: black;
+}
+
+:global(.dark) .hamburger .line { background-color: white; }
+</style>

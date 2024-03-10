@@ -1,13 +1,19 @@
 ---
 import Navigation from "./Navigation.astro";
 import Hamburger from "./Hamburger.astro";
-import ThemeIcon from './ThemeIcon.astro';
+import ThemeButton from './ThemeButton.astro';
 ---
 
 <header>
-  <nav>
-		<Hamburger />
-		<ThemeIcon />
-    <Navigation />
+  <nav class="flex items-end justify-center md:justify-end md:items-center flex-col md:flex-row gap-3">
+		<div class="grow w-full text-left md:text-center order-2 md:order-1 flex justify-start">
+			<Navigation />
+		</div>
+		<div class="flex items-center justify-end gap-x-4 order-1 md:order-2">
+			<Hamburger />
+			<ThemeButton />
+		</div>
   </nav>
+
+	<hr class="mt-4 mb-10" />
 </header>
