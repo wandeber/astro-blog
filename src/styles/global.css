@@ -15,19 +15,45 @@ body {
   box-sizing: border-box;
 }
 
-p:not(:last-child), ul:not(:last-child) {
+main.content p:not(:last-child), main.content ul:not(:last-child) {
   @apply mb-4;
 }
 
+h2 {
+  @apply mb-4 text-2xl;
+}
+
+h3 {
+  @apply mb-4 text-xl;
+}
+
+h4 {
+  @apply mb-4 text-lg;
+}
+
+p + h2, p + h3, p + h4, ul + h2, ul + h3, ul + h4, ol + h3, ol + h4 {
+  @apply mt-6;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 1rem;
+}
 
 ul {
   list-style-type: none; /* Elimina el marcador por defecto */
-  padding-left: 0; /* Opcional: elimina el padding izquierdo si deseas alinear los elementos a la izquierda */
+  padding-left: 1rem; /* Opcional: elimina el padding izquierdo si deseas alinear los elementos a la izquierda */
+}
+
+ul li {
+  position: relative;
 }
 
 ul li::before {
   content: "-"; /* Añade el guion como contenido antes de cada <li> */
-  margin-right: 8px; /* Añade un margen derecho para separar el guion del texto */
+  position: absolute;
+  left: -1rem; /* Ajusta la posición del guion para que esté alineado con el texto del <li> */
+  /*margin-right: 8px; /* Añade un margen derecho para separar el guion del texto */
   /* Puedes ajustar el color, tamaño, etc., del guion aquí si es necesario */
 }
 
