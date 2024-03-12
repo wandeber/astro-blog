@@ -1,11 +1,11 @@
 ---
-title: "Introducción a Git. Lo básico para empezar a funcionar..."
+title: "Introducción a Git. Lo básico para empezar a funcionar."
 pubDate: 2024-03-11
 description: "Guía con los comandos más típicos de Git y explicación de algunos conceptos básicos."
 author: "Wandeber"
-image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
-  alt: "The full Astro logo."
+# image:
+#   url: "https://docs.astro.build/assets/full-logo-light.png"
+#   alt: "The full Astro logo."
 tags: ["git", "programación", "introducción"]
 ---
 

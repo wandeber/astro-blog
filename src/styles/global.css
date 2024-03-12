@@ -31,13 +31,18 @@ h4 {
   @apply mb-4 text-lg;
 }
 
-p + h2, p + h3, p + h4, ul + h2, ul + h3, ul + h4, ol + h3, ol + h4 {
+p + h2, p + h3, p + h4,
+ul + h2, ul + h3, ul + h4,
+ol + h2, ol + h3, ol + h4,
+pre + h2, pre + h3, pre + h4,
+pre + p
+{
   @apply mt-6;
 }
 
 ol {
   list-style-type: decimal;
-  padding-left: 1rem;
+  padding-left: 20px;
 }
 
 ul {
@@ -45,16 +50,16 @@ ul {
   padding-left: 1rem; /* Opcional: elimina el padding izquierdo si deseas alinear los elementos a la izquierda */
 }
 
-ul li {
-  position: relative;
-}
-
 ul li::before {
   content: "-"; /* Añade el guion como contenido antes de cada <li> */
-  position: absolute;
-  left: -1rem; /* Ajusta la posición del guion para que esté alineado con el texto del <li> */
-  /*margin-right: 8px; /* Añade un margen derecho para separar el guion del texto */
+  margin-left: -1rem; /* Ajusta la posición del guion para que esté alineado con el texto del <li> */
+  margin-right: 8px;
+	/*margin-right: 8px; /* Añade un margen derecho para separar el guion del texto */
   /* Puedes ajustar el color, tamaño, etc., del guion aquí si es necesario */
+}
+
+pre {
+	@apply p-4 rounded-sm;
 }
 
 main.content a {
