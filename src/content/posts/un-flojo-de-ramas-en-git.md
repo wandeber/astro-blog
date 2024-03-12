@@ -86,7 +86,7 @@ git push
 
 ## Corrección de errores en producción
 
-En cualquier momento pueden detectarse errores en producción. Para abordarlos, no podemos trabajar en develop puesto que puede haber muchos cambios que no queremos publicar aun. Sacaremos una rama `patch/x.y.z` a partir de `main`. Trabajaremos en ella exactamente igual que en una rama `release/x.y.z`. La desplegaremos a QA y, una vez validada, la mergearemos con `main` y `develop`.
+En cualquier momento pueden detectarse errores en producción. Para abordarlos, no podemos trabajar en develop puesto que puede haber muchos cambios que no queremos publicar aun. Sacaremos una rama `patch/x.y.z` a partir de `main`.
 
 ```bash
 git checkout main
@@ -94,3 +94,5 @@ git pull
 git checkout -b patch/x.y.z
 git push -u patch/x.y.z
 ```
+
+La trataremos exactamente igual que a una rama `release/x.y.z`. La desplegaremos a QA y, una vez validada, la mergearemos con `main`. En el caso de las ramas `patch`, el mergeo posterior de `main` con `develop` es obligatorio.
