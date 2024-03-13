@@ -2,6 +2,12 @@
   "name": "astro-blog",
   "type": "module",
   "version": "0.0.1",
+	"author": {
+		"name": "Bernardo A. Siverio",
+		"email": "berthewanderer@gmail.com",
+		"url": "https://github.com/wandeber"
+	},
+	"license": "CC BY-NC-SA 4.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
