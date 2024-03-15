@@ -1,11 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import Greeting from '@components/Greeting';
+//import Greeting from '@components/Greeting';
 import BlogPost from "@components/BlogPost.astro";
 
 const pageTitle = "Últimos posts";
-const allPosts = await getCollection("posts");
+const allPosts = (await getCollection("posts"))
+.filter(post => post.data.published)
+.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+
 ---
 
 <BaseLayout pageTitle={pageTitle} description="Blog de Bernardo A. Siverio (Wandeber) sobre programación en general, desarrollo web, videojuegos, edición de vídeo, fotografía y cualquier otro tema de su interés.">

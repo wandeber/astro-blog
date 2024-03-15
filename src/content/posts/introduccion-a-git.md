@@ -1,6 +1,7 @@
 ---
 title: "Introducción a Git. Lo básico para empezar a funcionar."
 pubDate: 2024-03-11
+published: true
 description: "Guía con los comandos más típicos de Git y explicación de algunos conceptos básicos."
 author: "Wandeber"
 # image:

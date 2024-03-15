@@ -1,6 +1,7 @@
 ---
 title: Un flujo de ramas en Git
 author: Bernardo A. Siverio
+published: true
 description: "Descripción de un flujo de ramas de Git que he usado en bastantes proyectos."
 # image:
 #   url: "https://docs.astro.build/assets/arc.webp"
