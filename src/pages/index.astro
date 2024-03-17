@@ -19,7 +19,9 @@ const allPosts = (await getCollection("posts"))
 		"Soluciones, no problemas.",
 	]} />
 	*/}
-
+	<p>
+		Te doy la bienvenida a mi blog ^^. Sólo quiero avisarte de que encontrarás cosas sin acabar. Puede que las termine o extienda con el tiempo. Puede que no.
+	</p>
 	<ul>
 		{allPosts.map(post => <BlogPost url={`/posts/${post.slug}`} title={post.data.title} />)}
 	</ul>
