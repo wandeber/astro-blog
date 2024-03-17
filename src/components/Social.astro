@@ -1,9 +1,11 @@
 ---
-const { platform, username } = Astro.props;
+const { platform, username, link } = Astro.props;
+
+let url = link || `https://www.${platform}.com/${username}`
 ---
 
 <a
-	href={`https://www.${platform}.com/${username}`}
+	href={url}
 	aria-label={`Enlace a la cuenta de ${platform} de ${username}`}
 	rel="noreferrer" target="_blank" class="min-w-8"
 >
