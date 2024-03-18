@@ -26,19 +26,15 @@ No voy a dejar ningún punto sin respuesta clara. Pero sí tengo que decir que s
 
 En el primer grupo, tienes una meta, así que lo lógico es remar en línea recta hacia ella y "soltar peso". Estar en el primer grupo es un privilegio. Te dejo a ti decidir si te lo puedes permitir.
 
-En el segundo, no sabes qué acabarás haciendo exactamente. Más o menos, te tienes que preparar para "todo" dentro del puesto de trabajo al que aspiras.
+En el segundo, no sabes qué acabarás haciendo exactamente. Más o menos, te tienes que preparar para "todo" dentro del puesto de trabajo al que aspiras. En el caso del desarrollo web, no decidirás tú qué web harás y probablemente tampoco qué tecnologías usar. Tu habilidad más importante será la de aprender rápido aunque no aprendas cada cosa tan bien y en profundidad como podrías hacer con un objetivo más definido.
 
-No es lo mismo que tu objetivo sea crear un videojuego o que quieras trabajar como desarrollador web. Porque en el segundo caso, no decidirás tú qué web harás y probablemente tampoco qué tecnologías usar. En el segundo caso, tu habilidad más importante será la de aprender rápido aunque no aprendas cada cosa tan bien y en profundidad como podrías hacer con un objetivo más definido.
+Si estás en el primer grupo, probablemente este post te aportará poco. Podrás empezar a aprender antes las cosas específicas que encesitas para alcanzar tus objetivos. Pero al principio del todo, mi recomendación es la misma para cualquiera: La primera toma de contacto, con JavaScript.
 
-Sobra decir que hay puntos intermedios y que al final todos tenemos que trabajar para comer aunque tengamos nuestros proyectos personales aparte.
-
-Si estás en el primer grupo, probablemente este post no te aportará nada. Podrás empezar a aprender antes cosas específicas para lo que quieres. Aunque al principio del todo, mi recomendación es la misma para cualquier persona, independiendemente del grupo en el que se encuentre. Una primera toma de contacto es perfecta con JavaScript.
-
-Escribir unas líneas de JavaScript es sencillo y podrías hacerlo sin instalar nada. JavaScript está en el ordenador de cualquiera. Incluso en el móvil. Es el lenguaje de la web. Supongo que ha sido tradicionalmente infravalorado pero la web... Internet... Ya está en todas partes, de una forma u otra. Puedes profundizar más o menos. Puede que sólo usees JavaScript para aprender y probar cosas básicas, pero incluso si decides aprender HTML y CSS, no creo que sea un conocimiento que vaya a venirte mal. El mundo tiende a utilizar estas tecnologías u otras similares en cualquier tipo de aplicación que requiera interfaz gráfica.
+Escribir unas líneas de JavaScript es sencillo y podrías hacerlo sin instalar nada. JavaScript está en el ordenador de cualquiera. Incluso en el móvil. Puede que sólo uses JavaScript para aprender y probar cosas básicas. Pero incluso si decides profundizar más o hasta aprender HTML y CSS, no creo que sea un conocimiento que vaya a venirte mal. Más allá de la web, ll mundo tiende a utilizar estas tecnologías u otras similares en cualquier tipo de aplicación que requiera interfaz gráfica.
 
 ## ¿FP es una buena opción?
 
-Ya centrándonos en el segundo grupo... Sí. Aunque no esperes aprender desarrollo web realmente. Te servirá para que un montón de conceptos generales te entren por un oído y te salgan por el otro después del examen. También te servirá para estudiar un montón de cosas obsoletas que ya no se usan. Te preguntarás entonces por qué digo que es buena opción... Simplemente porque tiene prácticas. Y... funcionan. En general las empresas buscan programadores de prácticas en busca de talento. Así que es una buena forma de conseguir, al menos, una primera oportunidad.
+Ya centrándonos en el segundo grupo, sí. FP es una buena opción si quieres conseguir trabajo. Pero tienes que tener muy claro porqué entras y lo que te aportará para no acabar haciendo cosas extrañas que te podrían acabar perjudicando. [...] Aunque no esperes aprender desarrollo web realmente. Te servirá para que un montón de conceptos generales te entren por un oído y te salgan por el otro después del examen. También te servirá para estudiar un montón de cosas obsoletas que ya no se usan. Te preguntarás entonces por qué digo que es buena opción... Simplemente porque tiene prácticas. Y... funcionan. En general las empresas buscan programadores de prácticas en busca de talento. Así que es una buena forma de conseguir, al menos, una primera oportunidad.
 
 ## La importancia de los proyectos personales
 
