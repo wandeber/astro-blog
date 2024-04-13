@@ -10,8 +10,8 @@ author: "Wandeber"
 tags: ["git", "programación", "introducción"]
 ---
 
-He vivido varias veces el tener que enseñar Git a alguien que, viniendo de FP, empieza las prácticas en la empresa en la que trabajo.
-Dependiendo del instituto en el que hayan estudiado, algunos llegan sabiendo hacer commit y push. Otros sólo que Git existe.
+He enseñado Git a varios estudiantes de FP que han hecho las prácticas en la empresa en la que trabajo.
+Dependiendo del instituto del que vengan estudiado, algunos llegan sabiendo hacer commit y push. Otros sólo que Git existe.
 
 Esta parte de la introducción que hacemos ya es rutina para mí, así que he pensado recopilar los comandos que decidí enseñar la última vez.
 Sé con seguridad que me vendrá bien tenerlo a mano en el futuro.
